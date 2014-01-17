@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/viewVideoQualityController"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/quality_bg2"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/margin_normal" >
+
+    <Button
+        android:id="@+id/btnQuality720"
+        android:layout_width="@dimen/controller_btn_size"
+        android:layout_height="@dimen/controller_btn_size"
+        android:background="@drawable/quality_720_1" />
+
+    <Button
+        android:id="@+id/btnQuality360"
+        android:layout_width="@dimen/controller_btn_size"
+        android:layout_height="@dimen/controller_btn_size"
+        android:layout_marginTop="@dimen/margin_small"
+        android:background="@drawable/quality_360" />
+
+</LinearLayout>

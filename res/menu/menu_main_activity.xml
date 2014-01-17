@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:anime="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/abc_ic_search_api_holo_light"
+        android:title="@string/search_label"
+        anime:actionViewClass="android.support.v7.widget.SearchView"
+        anime:showAsAction="always|collapseActionView"/>
+    <item
+        android:id="@+id/action_refresh"
+        android:icon="@drawable/ic_action_refresh"
+        android:title="@string/refresh_label"
+        anime:showAsAction="always"/>
+
+</menu>

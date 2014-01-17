@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="blue_progress">#005DB6</color>
+    <color name="blue_gray_buffer">#000D15</color>
+    <color name="gray_progress_background">#343434</color>
+    <color name="black">#0000cc</color>
+    <color name="blue_light">#00ddee</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray_light">#b4bbc3</color>
+    <color name="nav_background">#343434</color>
+    <color name="bg_main">#E5E5E5</color>
+    <color name="boder_gray">#D8D8D8</color>
+
+</resources>

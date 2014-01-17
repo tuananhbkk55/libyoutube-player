@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        layout="@layout/view_admob" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/margin_small" >
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="@dimen/header_film_detail_height"
+            android:layout_height="@dimen/header_film_detail_height"
+            android:layout_centerVertical="true"
+            android:background="@drawable/selector_back" />
+
+        <Button
+            android:id="@+id/btnRate"
+            android:layout_width="@dimen/header_film_detail_height"
+            android:layout_height="@dimen/header_film_detail_height"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/selector_rate" />
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/margin_small"
+            android:layout_marginRight="@dimen/margin_small"
+            android:layout_toLeftOf="@id/btnRate"
+            android:layout_toRightOf="@id/btnBack"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="2"
+            android:text="Chapter 1 adf asd d fsda ds fssfd as dfasdf asd fasfa"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_large" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/containerVideoPlayer"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/video_height"
+        android:background="@drawable/frame_video_player"
+        android:padding="@dimen/frame_width" >
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <View
+            android:layout_width="0.3dp"
+            android:layout_height="@dimen/tab_height"
+            android:background="@color/blue_light" />
+
+        <FrameLayout
+            android:id="@+id/viewRelatedFilms"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/tab_height"
+            android:layout_weight="28" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/related_films_label"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_normal" />
+
+            <View
+                android:id="@+id/tabIndicatorChapter"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/tab_indicator_height"
+                android:layout_gravity="bottom"
+                android:background="@color/blue_light" />
+        </FrameLayout>
+
+        <View
+            android:layout_width="0.3dp"
+            android:layout_height="@dimen/tab_height"
+            android:background="@color/blue_light" />
+
+        <FrameLayout
+            android:id="@+id/viewContent"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/tab_height"
+            android:layout_weight="28" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="@string/infor_label"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_normal" />
+
+            <View
+                android:id="@+id/tabIndicatorContent"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/tab_indicator_height"
+                android:layout_gravity="bottom"
+                android:background="@android:color/transparent" />
+        </FrameLayout>
+
+        <View
+            android:layout_width="0.3dp"
+            android:layout_height="@dimen/tab_height"
+            android:background="@color/blue_light" />
+
+        <FrameLayout
+            android:id="@+id/viewComments"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/tab_height"
+            android:layout_weight="28" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="@string/comment_label"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_normal" />
+
+            <View
+                android:id="@+id/tabIndicatorComments"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/tab_indicator_height"
+                android:layout_gravity="bottom"
+                android:background="@android:color/transparent" />
+        </FrameLayout>
+
+        <View
+            android:layout_width="0.3dp"
+            android:layout_height="@dimen/tab_height"
+            android:background="@color/blue_light" />
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="@dimen/tab_height"
+            android:layout_weight="16" >
+
+            <Button
+                android:id="@+id/btnBookmarks"
+                android:layout_width="@dimen/book_mark_size"
+                android:layout_height="@dimen/book_mark_size"
+                android:layout_gravity="center"
+                android:background="@drawable/selector_bookmarks" />
+
+            <View
+                android:id="@+id/tabIndicatorBookmark"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/tab_indicator_height"
+                android:layout_gravity="bottom"
+                android:background="@android:color/transparent" />
+        </FrameLayout>
+
+        <View
+            android:layout_width="0.3dp"
+            android:layout_height="@dimen/tab_height"
+            android:background="@color/blue_light" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/line01" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="100" />
+
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/viewHeaderController"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/video_controller_header"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/margin_small" >
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="@dimen/controller_btn_size"
+            android:layout_height="@dimen/controller_btn_size"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="@dimen/margin_small"
+            android:background="@drawable/selector_back" />
+
+        <Button
+            android:id="@+id/btnVolume"
+            android:layout_width="@dimen/controller_btn_size"
+            android:layout_height="@dimen/controller_btn_size"
+            android:layout_alignParentRight="true"
+            android:layout_margin="@dimen/margin_small"
+            android:background="@drawable/selector_controller_volume" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="@dimen/controller_btn_size"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/margin_small" >
+
+        <TextView
+            android:id="@+id/tvVolume"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_normal"
+            android:layout_marginTop="@dimen/margin_normal"
+            android:gravity="center"
+            android:text="100"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_normal"
+            android:visibility="gone" />
+
+        <com.movie.filmtube.utils.VerticalSeekBar
+            android:id="@+id/sbVolume"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/volume_bar_height"
+            android:layout_below="@id/tvVolume"
+            android:layout_centerHorizontal="true"
+            android:max="100"
+            android:maxHeight="@dimen/volume_bar_width"
+            android:minHeight="@dimen/volume_bar_width"
+            android:paddingLeft="@dimen/margin_normal"
+            android:paddingRight="@dimen/margin_normal"
+            android:progressDrawable="@drawable/seek_bar_progress_complete"
+            android:thumb="@drawable/progress_thumb"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</RelativeLayout>

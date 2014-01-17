@@ -1,0 +1,58 @@
+<resources>
+
+    <!-- Text size dimen -->
+    <dimen name="text_size_small_x">11sp</dimen>
+    <dimen name="text_size_small">13sp</dimen>
+    <dimen name="text_size_normal">15sp</dimen>
+    <dimen name="text_size_normal_x">16sp</dimen>
+    <dimen name="text_size_large">18sp</dimen>
+    <dimen name="text_size_large_x">21sp</dimen>
+    <dimen name="text_size_large_xx">23sp</dimen>
+    <dimen name="text_size_large_xxx">26sp</dimen>
+    <dimen name="text_size_super_huge">30sp</dimen>
+
+    <!-- Margin and padding -->
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_small_x">5dp</dimen>
+    <dimen name="margin_normal">10dp</dimen>
+    <dimen name="margin_large">12dp</dimen>
+    <dimen name="margin_large_x">15dp</dimen>
+    <dimen name="margin_large_xx">18dp</dimen>
+    <dimen name="margin_large_xxx">20dp</dimen>
+    <dimen name="margin_huge">25dp</dimen>
+    <dimen name="margin_huge_x">30dp</dimen>
+    <dimen name="margin_huge_xx">33dp</dimen>
+    <dimen name="margin_huge_xxx">40dp</dimen>
+
+    <!-- Action bar -->
+    <dimen name="ab_refresh_icon_size">24dp</dimen>
+
+    <!-- Navigation Drawer (Sliding drawer) -->
+    <dimen name="navigation_width">200dp</dimen>
+
+    <!-- List of films -->
+    <dimen name="image_chapter_width">50dp</dimen>
+    <dimen name="image_chapter_height">60dp</dimen>
+    <dimen name="image_film_width">160dp</dimen>
+    <dimen name="image_film_height">140dp</dimen>
+    <dimen name="book_mark_size">40dp</dimen>
+    <dimen name="history_video_width">250dp</dimen>
+    <dimen name="history_video_height">1800dp</dimen>
+    <dimen name="tile_films_width">160dp</dimen>
+    <dimen name="tile_films_height">250dp</dimen>
+
+    <!-- Film detail -->
+    <dimen name="header_film_detail_height">30dp</dimen>
+
+    <!-- Video detail -->
+    <dimen name="video_height">300dp</dimen>
+    <dimen name="video_full_screen_height">350dp</dimen>
+    <dimen name="controller_btn_size">60dp</dimen>
+    <dimen name="controller_margin_width">50dp</dimen>
+    <dimen name="seek_bar_height">7dp</dimen>
+    <dimen name="progress_bar_download_height">7dp</dimen>
+    <dimen name="volume_bar_width">10dp</dimen>
+    <dimen name="volume_bar_height">200dp</dimen>
+    <dimen name="margin_quality_to_header">150dp</dimen>
+
+</resources>

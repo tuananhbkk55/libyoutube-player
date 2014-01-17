@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BigBang Tube</string>
+    <string name="publisher_id">a66786rd5632146</string>
+
+    <!-- Action bar -->
+    <string name="search_label">Search</string>
+    <string name="refresh_label">Refresh</string>
+    <string name="drawer_open_label">open drawer</string>
+    <string name="drawer_close_label">close drawer</string>
+    <string name="my_saved_label">MY SAVED FILMS</string>
+    <string name="book_marked_label">Bookmarks</string>
+    <string name="downloaded_label">Downloaded Films</string>
+    <string name="category_label">MY CATEGORIES</string>
+
+    <!-- Main -->
+    <string name="my_films">MY FILMS</string>
+    <string name="youtube_videos">MOVIES WORLD</string>
+    <string name="bookmar_tab">BOOKMARKS</string>
+    <string name="download_tab">SAVED FILMS</string>
+
+    <!-- Youtube film list -->
+    <string name="searching_youtube_title">Searching</string>
+    <string name="searching_youtube_message">Searching in the Internet...</string>
+    <string name="searching_more_youtube_title">Loading</string>
+    <string name="searching_more_youtube_message">Loading more videos...</string>
+    <string name="suggestion_search_youtube">You can search any kind of video in Movies World over the Internet such as music, film, animation...</string>
+
+    <!-- List films -->
+    <string name="chapters_label">"Chapters: "</string>
+    <string name="bookmark_dialog_title">Bookmark</string>
+    <string name="bookmark_dialog_message">"Do you want to bookmark the film: "</string>
+    <string name="bookmark_ok">Bookmark</string>
+    <string name="bookmark_cancel">Cancel</string>
+    <string name="bookmark_delete_title">Delete bookmark</string>
+    <string name="bookmark_delete_message">Do you want to remove this bookmark?</string>
+
+    <!-- Film detail -->
+    <string name="is_bookmarked">Video is bookmarked.</string>
+    <string name="is_not_bookmarked">Video is not bookmarked.</string>
+    <string name="related_films_label">RELATED</string>
+    <string name="comment_label">COMMENTS</string>
+    <string name="infor_label">INFO</string>
+
+    <!-- Dialog no internet -->
+    <string name="dialog_no_internet_title">Warning!</string>
+    <string name="dialog_no_internet_message">There\'s a problem with your internet connection. Please check it again.</string>
+    <string name="ok_label">OK</string>
+    <string name="cancel_label">Cancel</string>
+    <string name="delete_label">Delete</string>
+    <string name="yes_label">Yes</string>
+    <string name="no_label">No</string>
+
+    <!-- Dialog exit app -->
+    <string name="dialog_exit_title">Exit App</string>
+    <string name="dialog_exit_message">Do you want to exit this application or play video on background?</string>
+    <string name="dialog_exit_more_app">Play in background</string>
+
+    <!-- Rate Dialog -->
+    <string name="dialog_rate_title">Rate</string>
+    <string name="dialog_rate_message">If you like this application, please rate 5 Stars on Play Store.</string>
+    <string name="dialog_rate_yes">Yes, rate it</string>
+    <!-- Information Dialog -->
+    <string name="dialog_information_title">Notification</string>
+    <string name="message_update_successfully">Films updated!</string>
+    <string name="messasge_internet_problem">Theres is problem with your Internet connection or video link is broken.</string>
+
+</resources>
